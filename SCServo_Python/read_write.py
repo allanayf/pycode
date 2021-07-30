@@ -39,7 +39,7 @@ ADDR_SCS_PRESENT_POSITION  = 56
 # Default setting
 SCS_ID                      = 1                 # SCServo ID : 1
 BAUDRATE                    = 1000000           # SCServo default baudrate : 1000000
-DEVICENAME                  = '/dev/ttyUSB0'    # Check which port is being used on your controller
+DEVICENAME                  = 'COM7'    # Check which port is being used on your controller
                                                 # ex) Windows: "COM1"   Linux: "/dev/ttyUSB0" Mac: "/dev/tty.usbserial-*"
 
 SCS_MINIMUM_POSITION_VALUE  = 100         # SCServo will rotate between this value
